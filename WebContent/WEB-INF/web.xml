@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+     version="2.4">
+ <welcome-file-list>
+       <welcome-file>index.html</welcome-file>
+ </welcome-file-list>
+     <servlet>
+         <servlet-name>LoginServlet</servlet-name>
+         <servlet-class>servlet.LoginServlet</servlet-class>
+ </servlet>
+ 
+ <servlet>
+    <servlet-name>Caller</servlet-name>
+    <servlet-class>servlet.Caller</servlet-class>
+  </servlet>
+    
+  <servlet>
+         <servlet-name>SignupServlet</servlet-name>
+         <servlet-class>servlet.SignupServlet</servlet-class>
+ </servlet>
+
+ <servlet>
+         <servlet-name>HistoryServlet</servlet-name>
+         <servlet-class>servlet.HistoryServlet</servlet-class>
+ </servlet>
+ 
+ 
+  <servlet-mapping>
+         <servlet-name>LoginServlet</servlet-name>
+         <url-pattern>/servlet/LoginServlet</url-pattern>
+ </servlet-mapping>
+
+  <servlet-mapping>
+         <servlet-name>SignupServlet</servlet-name>
+         <url-pattern>/servlet/SignupServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet-mapping>
+         <servlet-name>HistoryServlet</servlet-name>
+         <url-pattern>/servlet/HistoryServlet</url-pattern>
+ </servlet-mapping>
+ 
+<servlet-mapping>
+    <servlet-name>Caller</servlet-name>
+    <url-pattern>/servlet/Caller</url-pattern>
+</servlet-mapping>
+    
+</web-app>
