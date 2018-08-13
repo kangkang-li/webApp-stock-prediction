@@ -1,27 +1,18 @@
-Project of Web Application of Stock Forecast
-Group 8 of ECE 568 SE Web App
-by Jia Xue, Jiawen Sun, Ke Xu, Kangkang Li, Lang Liu, Mingbo Zhang
-
-
 Files:
 The file directory was mainly arranged as the following requirement, and the code fold was put as the format from the project of eclipse.
    -
     |
-    +-----> documentation // ReadMe.
+    +-------> design-image	// UML diagrams in png images
     |
-    +-----> design        // UML diagrams in png images
+    +-------> lib		// Java jar files
     |
-    +--+--> code          // project code
-       |
-       +-------> lib		// Java jar files
-       |
-       +-------> build     // compiled Java classes
-       |
-       +-------> src     // source code
-       |
-       +-------> WebContent     // HTML files, and prediction codes
-       |
-       +-------> database      // mySQL file
+    +-------> build		// compiled Java classes
+    |
+    +-------> src		// source code
+    |
+    +-------> WebContent    // HTML files, and prediction codes
+    |
+    +-------> database      // mySQL file
 
 Library:
 Several libs were used in this project.
